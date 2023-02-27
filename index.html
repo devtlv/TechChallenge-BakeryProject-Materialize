@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Challenge || Materialize CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="home">
+        <nav class="grey lighten-3">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo grey-text text-darken-4">The Perfect Bakery</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#home" class="grey-text text-darken-3">Home</a></li>
+                    <li><a href="#about" class="grey-text text-darken-3">About</a></li>
+                    <li><a href="#offers" class="grey-text text-darken-3">Offers</a></li>
+                    <li><a href="#gallery" class="grey-text text-darken-3">Gallery</a></li>
+                    <li><a href="#contact" class="grey-text text-darken-3">Contact</a></li>
+                    <a class="waves-effect waves-light btn red darken-4" href="#">SignUp</a>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <a class="waves-effect waves-light btn">SignUP</a>
+        </ul>
+
+        <div class="carousel carousel-slider">
+            <a class="carousel-item" href="#one!"><img
+                    src="https://images.pexels.com/photos/1756062/pexels-photo-1756062.jpeg?auto=compress&cs=tinysrgb&w=1600"></a>
+            <div class="carousel-fixed-item center black-text">
+                <h5><span class="red-text darken-4">70%</span> Sale Off</h5>
+                <h3>Quality Products Bakery Items</h3>
+                <button class="btn waves-effect waves-light btn-flat red btn-large darken-4 black-text">Shop Now <i
+                        class="material-icons right">send</i></button>
+            </div>
+            <a class="carousel-item" href="#two!"><img
+                    src="https://images.pexels.com/photos/230743/pexels-photo-230743.jpeg?auto=compress&cs=tinysrgb&w=1600"></a>
+            <a class="carousel-item" href="#three!"><img
+                    src="https://images.pexels.com/photos/1775035/pexels-photo-1775035.jpeg?auto=compress&cs=tinysrgb&w=1600"></a>
+        </div>
+    </header><!-- /#home -->
+
+    <section id="about">
+        <div class="container">
+            <h3 class="center-align grey-text text-darken-3">About Us</h3>
+            <div class="row">
+                <div class="col s2 m2 l2 offset-l5 offset-m5 offset-s5">
+                    <hr class="red">
+                </div>
+            </div>
+
+            <div class="row valign-wrapper">
+                <div class="col m6 s12">
+                    <img src="https://images.pexels.com/photos/1028704/pexels-photo-1028704.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt="" class="responsive-img">
+                </div><!-- /.col m6 s12 -->
+                <div class="col m6 s12">
+                    <h4>Best Quality Bakery Products</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum excepturi corporis voluptatibus
+                        ratione provident commodi consectetur sapiente laborum fuga doloremque id perferendis,
+                        reprehenderit
+                        inventore pariatur tempore sunt quaerat impedit placeat veritatis accusamus eius? Tenetur veniam
+                        labore laboriosam amet molestiae ut.</p>
+                    <a href="#" class="btn waves-effect waves-light red darken-4 btn-flat white-text">Know More</a>
+                </div><!-- /.col m6 s12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /#about -->
+
+    <section id="offers">
+        <h3 class="center-align grey-text text-darken-3">Delicious Food Offers</h3>
+        <div class="row">
+            <div class="col s2 m2 l2 offset-l5 offset-m5 offset-s5">
+                <hr class="red">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col m4 s12">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="https://images.pexels.com/photos/8027652/pexels-photo-8027652.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                                class="responsive-img">
+                            <span class="card-title">Cakes</span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red darken-4"><i
+                                    class="material-icons">favorite</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias eaque aliquid aliquam
+                                soluta. Aliquid nemo quae, quas ipsa ad nam.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="red-text text-darken-4">Order Now</a>
+                        </div>
+                    </div>
+                </div><!-- /.col m4 s12 -->
+                <div class="col m4 s12">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="https://images.pexels.com/photos/14565951/pexels-photo-14565951.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                                class="responsive-img">
+                            <span class="card-title">Bread</span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red darken-4"><i
+                                    class="material-icons">favorite</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias eaque aliquid aliquam
+                                soluta. Aliquid nemo quae, quas ipsa ad nam.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="red-text text-darken-4">Order Now</a>
+                        </div>
+                    </div>
+                </div><!-- /.col m4 s12 -->
+                <div class="col m4 s12">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="https://images.pexels.com/photos/14565950/pexels-photo-14565950.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                                class="responsive-img">
+                            <span class="card-title">Gifts</span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red darken-4"><i
+                                    class="material-icons">favorite</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias eaque aliquid aliquam
+                                soluta. Aliquid nemo quae, quas ipsa ad nam.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="red-text text-darken-4">Order Now</a>
+                        </div>
+                    </div>
+                </div><!-- /.col m4 s12 -->
+            </div>
+        </div><!-- /.container -->
+    </section><!-- /#offers -->
+
+    <section id="gallery">
+        <h3 class="center-align grey-text text-darken-3">Food Gallery</h3>
+        <div class="row">
+            <div class="col s2 m2 l2 offset-l5 offset-m5 offset-s5">
+                <hr class="red">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col l4 m4 s12">
+                    <img src="https://images.pexels.com/photos/5945565/pexels-photo-5945565.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt="" class="responsive-img materialboxed" data-caption="dish-01">
+                </div><!-- /.col l4 m4 s12 -->
+                <div class="col l4 m4 s12">
+                    <img src="https://images.pexels.com/photos/5945565/pexels-photo-5945565.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt="" class="responsive-img materialboxed">
+                </div><!-- /.col l4 m4 s12 -->
+                <div class="col l4 m4 s12">
+                    <img src="https://images.pexels.com/photos/5945565/pexels-photo-5945565.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt="" class="responsive-img materialboxed">
+                </div><!-- /.col l4 m4 s12 -->
+            </div>
+            <div class="row">
+                <div class="col l4 m4 s12">
+                    <img src="https://images.pexels.com/photos/5945565/pexels-photo-5945565.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt="" class="responsive-img materialboxed">
+                </div><!-- /.col l4 m4 s12 -->
+                <div class="col l4 m4 s12">
+                    <img src="https://images.pexels.com/photos/5945565/pexels-photo-5945565.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt="" class="responsive-img materialboxed">
+                </div><!-- /.col l4 m4 s12 -->
+                <div class="col l4 m4 s12">
+                    <img src="https://images.pexels.com/photos/5945565/pexels-photo-5945565.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt="" class="responsive-img materialboxed">
+                </div><!-- /.col l4 m4 s12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /#gallery -->
+
+    <section id="contact">
+        <h3 class="center-align grey-text text-darken-3">Contact Us</h3>
+        <div class="row">
+            <div class="col s2 m2 l2 offset-l5 offset-m5 offset-s5">
+                <hr class="red">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col m6 l6 offset-l3 offset-m3">
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="first_name" type="text" class="validate">
+                                    <label for="first_name">First Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Last Name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="mobile" type="tel" class="validate" data-length="14">
+                                    <label for="mobile">Mobile Number</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    <label for="textarea1">Message</label>
+                                </div>
+                            </div>
+                            <div class="file-field input-field">
+                                <div class="btn btn-small grey">
+                                    <span>Images</span>
+                                </div>
+                                <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text"
+                                        placeholder="Upload Selected Food Items Images">
+                                </div>
+                            </div>
+                            <button class="btn waves-effect waves-light btn-flat red darken-4 white-text">Send
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </form>
+                    </div>
+                </div><!-- /.col m6 l6 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /#contact -->
+
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">The Perfect Bakery</h5>
+                    <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                        doloribus impedit dicta, earum rem est velit vitae provident corporis maxime explicabo id omnis
+                        nostrum! Recusandae.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Quick Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#home">Home</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#about">About</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#offers">Offers</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#gallery">Gallery</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container">
+                © 2021 All Rights Reserved The Perfect Bakery
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
